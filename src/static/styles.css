@@ -102,6 +102,18 @@ section h3 {
   list-style-type: disc;
 }
 
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.activity-card ul li::before {
+  content: "• ";
+  color: #1a237e;
+  font-weight: bold;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
