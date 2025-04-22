@@ -103,12 +103,26 @@ section h3 {
 }
 
 .activity-card ul li {
-  margin-bottom: 8px; /* Adiciona espaçamento entre os itens */
+  margin-bottom: 8px; /* Espaçamento entre os itens */
   font-size: 0.95rem;
   color: #555;
+  line-height: 1.5; /* Garante espaçamento vertical */
 }
 
 .activity-card ul li::before {
+  content: "• ";
+  color: #1a237e;
+  font-weight: bold;
+}
+
+.participant {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5; /* Espaçamento vertical */
+  margin-bottom: 8px; /* Espaçamento entre os participantes */
+}
+
+.participant::before {
   content: "• ";
   color: #1a237e;
   font-weight: bold;
